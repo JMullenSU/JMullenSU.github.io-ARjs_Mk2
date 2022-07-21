@@ -1,6 +1,6 @@
 // Based on tutorial https://medium.com/@fabiojcortes/manipulate-your-3d-content-with-gestures-in-ar-js-78da4c076607
 
-RTCEncodedAudioFrame.registerComponent("gesture-handler", {
+AFRAME.registerComponent("gesture-handler", {
     schema: {
         enabled: { default: true },
         rotationFactor: { default: 5 },
